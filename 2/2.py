@@ -52,7 +52,7 @@ while run:
             neg = 1
             if jumpCount < 0:
                 neg = -1
-            y -= (jumpCount**2) * 0.5 * neg
+            y -= (jumpCount**2) * 0.5 * neg # a quadratic function for jumping 
             jumpCount -= 1
         else:
             jumpCount = 10
